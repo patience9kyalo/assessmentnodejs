@@ -1,0 +1,17 @@
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "prodname": "Yeezy",
+    "proddescription": "For all women",
+    "prodprice":"2000"
+}
+
+####
+
+GET http://localhost:3000/product
+#####
+
+
+
+GET http://localhost:3000/product/Yeezy
